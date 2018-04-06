@@ -17,8 +17,7 @@ addBorder(picture) = ["*****",
                       "*****"]
 """
 def addBorder(picture):
-    len_str = len(picture[0])
-    padding = '*' * (len_str + 2)
+    padding = '*' * (len_picture[0] + 2)
 
     for idx in range(len(picture)):
         picture[idx] = '*' + picture[idx] + '*'
