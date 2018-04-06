@@ -26,7 +26,7 @@ def areEquallyStrong(yourLeft, yourRight, friendsLeft, friendsRight):
         return True
     return False
 
-== "__main__":
+if __name__ == "__main__":
     yourLeft = 10
     yourRight = 15
     friendsLeft = 15
